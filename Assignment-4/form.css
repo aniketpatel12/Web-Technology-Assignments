@@ -1,0 +1,19 @@
+
+            body{
+                background-image: url(bgi.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+            h1{
+               
+                color: white;
+                font-size: 100;
+                text-align: center;
+            }
+
+            .fn{
+                margin-left: 30%;
+                font-size: 20;
+                color: black;;
+            }

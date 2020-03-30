@@ -1,0 +1,101 @@
+#Apple{
+    width: 50%;
+    height: 83%;
+    float: left;
+    text-align: center;
+    font-size: 100;
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+}
+
+#img1{
+    height: 500px;
+    
+}
+
+#Apple:hover {
+    font-size: 100px;
+    color: red;
+    border: 5px solid red;
+    text-shadow:3px 3px 20px red ;
+    border-radius:10px;
+  }
+
+ 
+  #mySidenav a {
+    position: absolute;
+    left: -124px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+
+
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+
+  .applediff{
+      margin-top: 30px;
+    width: 50%;
+    height: 99%;
+    float: left;
+    text-align: left;
+    background-color: white;
+    border: 3px solid red;
+  }
+
+  #about2 {
+    bottom: 20px;
+  }
+  #mySidenav2 a {
+    position: fixed;
+    left: 1px;
+    padding: 15px;
+    width: auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+
+
+
+ /* 
+  #Apple:hover #img1{
+      border: 2px solid red;
+  }
+ 
+ #app:hover {
+    font-size: 80px;
+    color: red;
+    
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px red;
+      
+    }
+
+    to{
+        text-shadow: 0 0 10px red;
+    }
+    
+  } */

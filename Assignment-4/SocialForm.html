@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title> Social Networking Site</title>
+        <link rel="stylesheet" href="form.css">
+
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+
+            function myFunction1() 
+            {
+                var x = document.getElementById("lname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </head>
+    <body>
+        <h1>FINEXIA</h1>
+        <hr color="pink" size="10%">
+        
+        <table>
+            <tr>
+                <td width="50%">
+                    <img src="finexia.jpg" height="128%" width="120%">
+                </td>
+
+                <td width="50%">
+        <h2 style = "color:white;margin-left: 30%;"> REGISTRATION FORM </h1>
+            <br>
+            <form method="GET" class="fn" onsubmit="form()">
+
+
+            <lable>First Name &nbsp&nbsp&nbsp&nbsp: </lable><input type="text" id="fname" onblur="myFunction()"><br><br><br>
+           
+            <lable>Middle Name : </lable><input type="text" id="mname" onblur="myFunction1()"><br><br><br>
+           
+            <lable>Last Name &nbsp&nbsp&nbsp&nbsp&nbsp: </lable><input type="text"  id="lname"><br>
+            <br>
+            <br>
+
+            <lable>Username &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </lable><input type="text" id="uname" required><br>
+            <br>
+            <br>
+
+            <lable>Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :</lable>
+            <lable>Male :</lable>
+            <input type="radio" name="gender" value="Male" >
+            <lable>Female :</lable>
+            <input type="radio" name="gender" value="Male">
+            <br><br><br>
+            <lable>Birth date&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp :</lable>
+            <input type="date">
+            
+            
+            <br><br><br>
+            <lable>City&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</lable>
+            <select name="city" required>
+            <option>Rajkot</option>
+            <option>Junagadh</option>
+            <option selected>Ahmedabad</option>
+            <option>Vadodara</option>
+            <option>Amreli</option>
+            <option>Anand</option>
+            <option>Nadiad</option>
+            </select>
+            
+            <br>
+            <br><br>
+            <lable>State&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</lable>
+            <select name="State">
+            <option>Gujarat</option>
+            <option>Maharashtra</option>
+            <option selected>Hariyana</option>
+            <option>Rajasthasn</option>
+            <option>Punjab</option>
+            <option>Karnataka</option>
+            </select>
+            
+            <br>
+            <br></br>
+            
+            <lable>Email ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </lable>
+            <input type="email" id="email_id" required>
+            <br>
+            <br></br>
+            
+            <lable>Phone no.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </lable>
+            <input type="phone"  pattern="[0-9]{10}" required >
+            <br>
+            <br></br>
+
+            <lable>Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </lable>
+            <input type="password"  pattern="[a-z,0-9,@,&]{10}" required >
+            <br>
+            <br></br>
+
+            <input type="submit">
+            <input type="reset">
+            </form>
+                </td>
+               
+            </tr>
+        </table>
+    </body>
+</html>
